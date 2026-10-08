@@ -1,4 +1,5 @@
-public class CatalogoArreglo<T> implements Catalogo<T> {
+package src;
+    public class CatalogoArreglo<T> implements Catalogo<T> {
     private final Object[] elementos;
     private int cantidad;
 
